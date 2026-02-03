@@ -7,8 +7,8 @@ If you want to deploy manually through AWS Console instead of Terraform, follow 
 1. Go to AWS Console and click **Instances**
 2. Click **Launch Instance**
 3. Enter a name for your instance
-4. Choose **Amazon Linux 2** as the image
-5. Select **t2.micro** as instance type
+4. Choose **Ubuntu** as the image
+5. Select **t3.micro** as instance type
 6. Create or select your key pair
 7. In security group, allow:
    - SSH from your IP
